@@ -270,6 +270,8 @@
   #if ENABLED(ULTIPANEL)
     #define NEWPANEL  // Disable this if you actually have no click-encoder panel
     #define ULTRA_LCD
+    #define REVERSE_MENU_DIRECTION
+//TODO: Added reverse knob rotation. Counter(anti)-Clockwise is down.
     #ifndef LCD_WIDTH
       #define LCD_WIDTH 20
     #endif
